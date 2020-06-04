@@ -102,6 +102,6 @@ fig.update_layout(
     margin=dict(l=40, r=40, t=100, b=40),
     )
 
-#fig.write_image("COVID19-phase-plot.pdf", scale=2)
-py.plot(fig, filename = 'COVID19-phase-plot', auto_open=False)
+fig.write_image("COVID19-phase-plot.pdf", scale=2)
+#py.plot(fig, filename = 'COVID19-phase-plot', auto_open=False)
 

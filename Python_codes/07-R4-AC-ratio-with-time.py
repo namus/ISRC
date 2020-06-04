@@ -121,9 +121,9 @@ fig.update_layout(images=[dict(
         xanchor="right", yanchor="bottom"
       )],
         )
-#fig.write_image("COVID19-R4-AC-ratio.png",
-#                height=1000, width=900,
-#                scale=1)
+fig.write_image("COVID19-R4-AC-ratio.png",
+                height=1000, width=900,
+                scale=1)
 #fig.show()
-py.plot(fig, filename = 'COVID19-R4-AC-ratio', auto_open=False)
+#py.plot(fig, filename = 'COVID19-R4-AC-ratio', auto_open=False)
 

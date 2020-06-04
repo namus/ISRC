@@ -255,5 +255,5 @@ fig.update_layout(images=[dict(
       )],
         )
 
-#fig.write_image("COVID19-state-wise-time-evolution.pdf",height=1000, width=1000,scale=2)
-py.plot(fig, filename = 'COVID19-state-wise-time-evolution', auto_open=False)
+fig.write_image("COVID19-state-wise-time-evolution.pdf",height=1000, width=1000,scale=2)
+#py.plot(fig, filename = 'COVID19-state-wise-time-evolution', auto_open=False)

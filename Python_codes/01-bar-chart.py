@@ -130,6 +130,6 @@ fig.update_layout(
 )
 
 #fig.show()
-#fig.write_image("COVID19-Histogram-Simple-Data.pdf",scale=2)
-py.plot(fig, filename = 'COVID19-Histogram-Simple-Data', auto_open=False)
+fig.write_image("COVID19-Histogram-Simple-Data.pdf",scale=2)
+##py.plot(fig, filename = 'COVID19-Histogram-Simple-Data', auto_open=False)
 

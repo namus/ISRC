@@ -121,5 +121,5 @@ fig.update_layout(
 )
 
 #fig.show()
-#fig.write_image("COVID19-Doubling-time.pdf",height=1000, width=1000,scale=2)
-py.plot(fig, filename = 'COVID19-Doubling-time', auto_open=False)
+fig.write_image("COVID19-Doubling-time.pdf",height=1000, width=1000,scale=2)
+#py.plot(fig, filename = 'COVID19-Doubling-time', auto_open=False)
